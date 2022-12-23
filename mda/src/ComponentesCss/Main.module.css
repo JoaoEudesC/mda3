@@ -1,0 +1,157 @@
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px;
+    grid-template-rows:100vh 100vh;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+
+
+
+
+
+.saberMais{
+    background-color: rgb(66, 66, 211);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+}
+
+.saberMais:hover{
+    background-color: purple;
+    cursor: pointer;
+    transition-duration: 1s;
+    transform: scale(1.1);
+}
+
+
+.div1{
+    background-color:lightgray;
+    border: solid purple;
+    margin-left: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+
+
+.div2{
+    background-color: rgb(221, 220, 220);
+    border: solid purple;
+    margin-right: 8px;
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.economy{
+    border: none;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.ApresentationText{
+    color:rgb(66, 66, 211);
+    margin-top: 50px;
+}
+
+
+.section1{
+    background-color: gray;
+    border: solid purple;
+    width: 40vw;
+    height: 100vh;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+    
+    
+}
+
+
+.section2{
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns:100%;
+    width: 40vw;
+    height: 100vh;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px black;
+    border: solid purple;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+
+
+
+.gold{
+    color: gold;
+    margin-top: -200px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    
+}
+
+
+.link{
+    color: black;
+    text-decoration: underline;
+}
+
+
+.strong{
+    font-size: 1.5rem;
+}
+
+.h3{
+    color: purple;
+}
+
+
+
+@media(max-width:776px){
+    .section2{
+        margin-left: 10px;
+    }
+}
+
+
+@media(max-width:724px){
+    .div1{
+        padding-bottom: 50px;
+    }
+
+}

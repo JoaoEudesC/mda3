@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(209, 209, 250);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html{
+  font-size: 16px;
+}
+
+
+footer{
+  background-color: lightgray;
+  margin-top: 400px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  height: 50vh;
+  border: solid purple;
+  width: 100vw;
+  
+}
+
+
+.icones{
+  background-color:  rgb(134, 95, 125);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 3px;
+  box-shadow: 1.5px 1.5px 1.5px black;
+}
+
+
+.icones:hover{
+  background-color: rgb(199, 105, 177);
+  transform: scale(1.1);
+  transition-duration: 1s;
+  
+}
+
+#instagram{
+  color: rgb(180, 2, 180);
+
+}
+
+
+#facebook{
+  color: blue;
+  
+}
+
+
+#youtube{
+  color: red;
+  
+}
+
+
+#voltarTopo{
+  color: purple;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 1.5px 1.5px 1.5px black;
+}
+
+
+#voltarTopo:hover{
+  background-color: lightgray;
+  transform: scale(1.1);
+  transition-duration: 1s;
+  background-Color:rgb(134, 95, 125);
+  color: rgb(245, 199, 234);
+  
+}
+
+.Information:hover{
+  transition-duration: 1s;
+  color: purple;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+.ATP{
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+  
+}
+
+.ATP:hover{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+#atp{
+  margin-top: 4px;
+}
+  
+#condiçoes{
+  margin-top: 10px;
+}
+
+
+
+.Subtitulo-Footer{
+  color: purple;
+}
+
+
+@media(max-width:724px){
+  #coluna3{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .termos{
+    margin-top: 45px;
+  }
+  #condiçoes{
+    margin-top: 53px;
+  }
+  
+  
+}
+
+
+
+
+
+
+
