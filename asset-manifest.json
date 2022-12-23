@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mda3/static/css/main.8a586caa.css",
+    "main.js": "/mda3/static/js/main.22c7dd79.js",
+    "static/js/787.5b45aeab.chunk.js": "/mda3/static/js/787.5b45aeab.chunk.js",
+    "index.html": "/mda3/index.html",
+    "main.8a586caa.css.map": "/mda3/static/css/main.8a586caa.css.map",
+    "main.22c7dd79.js.map": "/mda3/static/js/main.22c7dd79.js.map",
+    "787.5b45aeab.chunk.js.map": "/mda3/static/js/787.5b45aeab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a586caa.css",
+    "static/js/main.22c7dd79.js"
+  ]
+}
