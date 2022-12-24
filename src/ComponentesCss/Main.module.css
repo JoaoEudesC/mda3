@@ -155,3 +155,9 @@
     }
 
 }
+
+@media(max-width:500px){
+    .section1,.section2{
+        gap: 20px;
+    }
+}
